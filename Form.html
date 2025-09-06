@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <title>Bank Acoount Opening Form</title>
+    </head>
+    <body>
+        <h2>Bank Account Opening Form</h2>
+        <form actio="#"  method="post">
+            <!--Personal Information-->
+            <label>First Name:</label>
+            <input type="text" name="last_name" required><br><br>
+            <label>Last Name:</label>
+            <input type="text"  name="last_name"required><br><br>
+            <label>Username:</label>
+            <input type="text" name="Username"required><br><br>
+            <label>Password</label>
+            <input type="password" name="password"required><br><br>
+            <label>Gender</label>
+            <input type="radio" name="Gender" value="male">male
+            <input type="radio" name="Gender" value="female">female<br><br>
+            <label>Mobile No:</label>
+            <input type="tel" name="Mobile" maxlength="10" required><br><br>
+            <label>Email:</label>
+            <input type="email" name="email" required><br><br>
+            <label>Address:</label><br>
+            <textarea name="Address" rows="4" cols="40" required></textarea><br><br>
+            <label>Account type:</label>
+            <select name="Account_type"><option value="Savings">Savings</option>
+            <option value="Current">Current</option>
+            <option value="fixed">Fixed Deposite</option></select><br><br>
+            <label>Intial Deposite:</label>
+            <input type="number" name="deposite" required><br><br>
+            <input type="submit" value="Open Account">
+            <input type="reset" value="Reset">    
+        </form>
+    </body>
+</html>
